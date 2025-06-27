@@ -7,7 +7,7 @@
 #include <cctype>
 using namespace std;
 
-// Функция для проверки, является ли символ гласной буквой (русской или английской)
+// Функция для проверки, является ли символы гласными буквами в файле
 bool isVowel(char ch) {
     ch = tolower(ch);
     const string vowels = "aeiouyаеёиоуыэюя";
